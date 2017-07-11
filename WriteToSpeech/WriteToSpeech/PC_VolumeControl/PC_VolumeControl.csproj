@@ -88,6 +88,36 @@
       <Install>true</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\PC_VolumeControl.dll" />
+    <Content Include="bin\Debug\PC_VolumeControl.pdb" />
+    <Content Include="bin\Release\PC_VolumeControl.dll" />
+    <Content Include="bin\Release\PC_VolumeControl.pdb" />
+    <Content Include="bin\x86\Release\PC_VolumeControl.dll" />
+    <Content Include="bin\x86\Release\PC_VolumeControl.pdb" />
+    <Content Include="obj\Debug\PC_VolumeControl.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\PC_VolumeControl.dll" />
+    <Content Include="obj\Debug\PC_VolumeControl.pdb" />
+    <Content Include="obj\PC_VolumeControl.csproj.FileList.txt" />
+    <Content Include="obj\PC_VolumeControl.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Release\PC_VolumeControl.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Release\PC_VolumeControl.dll" />
+    <Content Include="obj\Release\PC_VolumeControl.pdb" />
+    <Content Include="obj\x86\Release\PC_VolumeControl.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\x86\Release\PC_VolumeControl.dll" />
+    <Content Include="obj\x86\Release\PC_VolumeControl.pdb" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="obj\Release\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\x86\Release\DesignTimeResolveAssemblyReferencesInput.cache" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="obj\Debug\Refactor\" />
+    <Folder Include="obj\Debug\TempPE\" />
+    <Folder Include="obj\Release\Refactor\" />
+    <Folder Include="obj\Release\TempPE\" />
+    <Folder Include="obj\x86\Release\TempPE\" />
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

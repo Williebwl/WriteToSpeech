@@ -104,6 +104,12 @@
       <DependentUpon>Form1.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="obj\Debug\WriteToSpeech.Form1.resources" />
+    <EmbeddedResource Include="obj\Debug\WriteToSpeech.Properties.Resources.resources" />
+    <EmbeddedResource Include="obj\Release\WriteToSpeech.Form1.resources" />
+    <EmbeddedResource Include="obj\Release\WriteToSpeech.Properties.Resources.resources" />
+    <EmbeddedResource Include="obj\x86\Release\WriteToSpeech.Form1.resources" />
+    <EmbeddedResource Include="obj\x86\Release\WriteToSpeech.Properties.Resources.resources" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -114,6 +120,21 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="bin\Debug\WriteToSpeech.vshost.exe.manifest" />
+    <None Include="bin\Release\TTS_51_chs.msi" />
+    <None Include="bin\Release\云达文字朗读.vshost.exe.manifest" />
+    <None Include="obj\Debug\ResolveAssemblyReference.cache" />
+    <None Include="obj\Debug\WriteToSpeech.csproj.GenerateResource.Cache" />
+    <None Include="obj\Release\build.force" />
+    <None Include="obj\Release\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="obj\Release\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\Release\ResolveAssemblyReference.cache" />
+    <None Include="obj\Release\WriteToSpeech.csproj.GenerateResource.Cache" />
+    <None Include="obj\Release\WriteToSpeech.csprojResolveAssemblyReference.cache" />
+    <None Include="obj\x86\Release\build.force" />
+    <None Include="obj\x86\Release\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\x86\Release\WriteToSpeech.csproj.GenerateResource.Cache" />
+    <None Include="obj\x86\Release\WriteToSpeech.csprojResolveAssemblyReference.cache" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -140,6 +161,33 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>true</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\DotNetSpeech.dll" />
+    <Content Include="bin\Debug\PC_VolumeControl.dll" />
+    <Content Include="bin\Debug\PC_VolumeControl.pdb" />
+    <Content Include="bin\Debug\云达文字朗读.exe" />
+    <Content Include="bin\Debug\云达文字朗读.pdb" />
+    <Content Include="bin\Debug\云达文字朗读.vshost.exe" />
+    <Content Include="bin\Release\20130724112616854_48.ico" />
+    <Content Include="bin\Release\DotNetSpeech.dll" />
+    <Content Include="bin\Release\PC_VolumeControl.dll" />
+    <Content Include="bin\Release\PC_VolumeControl.pdb" />
+    <Content Include="bin\Release\云达文字朗读.exe" />
+    <Content Include="bin\Release\云达文字朗读.pdb" />
+    <Content Include="bin\Release\云达文字朗读.vshost.exe" />
+    <Content Include="bin\Release\卸载.ICO" />
+    <Content Include="bin\x86\Release\云达文字朗读.vshost.exe" />
+    <Content Include="obj\Debug\TempPE\Properties.Resources.Designer.cs.dll" />
+    <Content Include="obj\Debug\WriteToSpeech.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\云达文字朗读.exe" />
+    <Content Include="obj\Debug\云达文字朗读.pdb" />
+    <Content Include="obj\Release\TempPE\Properties.Resources.Designer.cs.dll" />
+    <Content Include="obj\Release\WriteToSpeech.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Release\云达文字朗读.exe" />
+    <Content Include="obj\Release\云达文字朗读.pdb" />
+    <Content Include="obj\x86\Release\TempPE\Properties.Resources.Designer.cs.dll" />
+    <Content Include="obj\x86\Release\WriteToSpeech.csproj.FileListAbsolute.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
